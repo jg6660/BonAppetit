@@ -1,0 +1,17 @@
+{
+  "trigger": true,
+  "modules": [
+    "custom"
+  ],
+  "parentResource": "recipefrontend21bf653621bf6536",
+  "functionName": "recipefrontend21bf653621bf6536PostConfirmation",
+  "resourceName": "recipefrontend21bf653621bf6536PostConfirmation",
+  "parentStack": "auth",
+  "triggerEnvs": [],
+  "triggerDir": "/snapshot/repo/build/node_modules/@aws-amplify/amplify-category-auth/provider-utils/awscloudformation/triggers/PostConfirmation",
+  "triggerTemplate": "PostConfirmation.json.ejs",
+  "triggerEventPath": "PostConfirmation.event.json",
+  "roleName": "recipefrontend21bf653621bf6536PostConfirmation",
+  "skipEdit": true,
+  "enableCors": false
+}

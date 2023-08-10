@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "recipefrontend",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authrecipefrontend21bf653621bf6536",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

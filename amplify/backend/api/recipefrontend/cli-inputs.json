@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "recipefrontend",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/adityasharma/Documents/GitHub/recipe-frontend/amplify/backend/api/recipefrontend/schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authrecipefrontend21bf653621bf6536"
+    }
+  }
+}
