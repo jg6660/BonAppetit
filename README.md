@@ -45,7 +45,7 @@ Once the data has all the cuisine information, we have indexed the data to Opens
 The front end application is implemented using React and hosted on Amplify. Through Appsync, it connects to Cloud Formation, Lambda function. 
 The lambda function is connected to DynamoDB to store user information. 
    
-![Data-Pre](https://github.com/swarna97/Bon-Appetit/blob/master/readme-supporting/front-end.png)
+![Data-Pre](./readme-supporting/front-end.png)
 
 2. Back-End Architecture 
 
@@ -55,35 +55,35 @@ Front-end hosted on Amplify conencts to API Gateway where we have three API call
 /uploadDB - This API connects to SQS and the messages from SQS will be uploaded to DynamoDB for user-specific pantry. The lambda function also sends mails to the users if the ingredient they added is expiring today. <br />
 /getRecipes - This API connects to lambda and retrieves the search results from Opensearch based on the user selected ingredients. <br />
 
-![Data-Pre](https://github.com/swarna97/Bon-Appetit/blob/master/readme-supporting/back-end.png)
+![Data-Pre](./readme-supporting/back-end.png)
 
 3. Expiry Monitor Architecture
 
 A feature we have added to monitor the expiration of ingredients. The cloud watch triggers a Lambda function to check the expiry date of all the ingredients in every user's pantry and sends them an email to remind them to check the app for recipes expiring today. 
 
-![Data-Pre](https://github.com/swarna97/Bon-Appetit/blob/master/readme-supporting/expiry-monitor.png)
+![Data-Pre](./readme-supporting/expiry-monitor.png)
 
 ## Working
 
 1. Login 
    
-![Login](https://github.com/swarna97/Bon-Appetit/blob/master/readme-supporting/gif(1).gif)
+![Login](./readme-supporting/gif(1).gif)
 
 2. Selecting Ingredients 
    
-![Sel-Ing](https://github.com/swarna97/Bon-Appetit/blob/master/readme-supporting/gif(2).gif)
+![Sel-Ing](./readme-supporting/gif(2).gif)
 
 3. Getting Recipes
    
-![Get-Rec](https://github.com/swarna97/Bon-Appetit/blob/master/readme-supporting/gif(3).gif)
+![Get-Rec](./readme-supporting/gif(3).gif)
 
 4. Adding to Pantry
    
-![Add-Pan](https://github.com/swarna97/Bon-Appetit/blob/master/readme-supporting/gif(4).gif)
+![Add-Pan](./readme-supporting/gif(4).gif)
 
 5. Viewing Newly Added Ingredients
    
-![View-New](https://github.com/swarna97/Bon-Appetit/blob/master/readme-supporting/gif(5).gif)
+![View-New](./readme-supporting/gif(5).gif)
 
 
 * * *
