@@ -22,7 +22,7 @@ Data is selected from kaggle https://www.kaggle.com/datasets/elisaxxygao/foodrec
 The data did not have cuisine information. So, we predicted the cuisine for each of the 45000 recipes using a Machine Learning Model. 
 Once the data has all the cuisine information, we have indexed the data to Opensearch for searching based on user's preference. 
 
-![Data-Pre](https://github.com/adityaaay/recipe-frontend/blob/master/readme-supporting/data-pre.png)
+![Data-Pre](./readme-supporting/data-pre.png)
 
 #### Features
 
